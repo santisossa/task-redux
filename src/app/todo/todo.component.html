@@ -1,0 +1,10 @@
+<section class="todoapp">
+    <app-add></app-add>
+    <section class="main">
+        <input id="toggle-all" class="toggle-all" type="checkbox">
+        <label (click)="toggleAll()" for="toggle-all">Mark all as complete</label>
+        <app-list></app-list>
+    </section>
+    <!-- This footer should hidden by default and shown when there are todos -->
+    <app-td-footer></app-td-footer>
+</section>
